@@ -1,4 +1,4 @@
-package linkedlist;
+package linearlist.linkedlist;
 
 public class ReverseLinkedListII {
 
