@@ -19,6 +19,7 @@ public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         if (s == null || s.length() == 0)
             return true;
+
         char[] arr = s.toCharArray();
         boolean flag = true;
         for(int begin = 0, end = s.length() - 1; begin < end; begin++ , end--){
